@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  border: 1px solid red;
+}
+
+#color-palette {
+  height: 100px;
+  width: 408px;
+  border: 1px solid red;
+}
+
+.color {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:nth-child(1){
+  background-color: rgb(0, 156, 59);
+}
+
+.color:nth-child(2){
+  background-color: rgb(255, 223, 0);
+}
+
+.color:nth-child(3){
+  background-color: rgb(0, 39, 118);
+}
+
+.color:nth-child(4){
+  background-color: rgb(0, 0, 0);
+}
