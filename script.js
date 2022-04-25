@@ -50,7 +50,6 @@ const pixel25 = document.querySelectorAll('.pixel')[24];
 pixel1.addEventListener('click' , paintPixel);
 pixel2.addEventListener('click' , paintPixel);
 pixel3.addEventListener('click' , paintPixel);
-pixel3.addEventListener('click' , paintPixel);
 pixel4.addEventListener('click' , paintPixel);
 pixel5.addEventListener('click' , paintPixel);
 pixel6.addEventListener('click' , paintPixel);
@@ -62,44 +61,46 @@ pixel11.addEventListener('click' , paintPixel);
 pixel12.addEventListener('click' , paintPixel);
 pixel13.addEventListener('click' , paintPixel);
 pixel14.addEventListener('click' , paintPixel);
+pixel15.addEventListener('click' , paintPixel);
 pixel16.addEventListener('click' , paintPixel);
 pixel17.addEventListener('click' , paintPixel);
 pixel18.addEventListener('click' , paintPixel);
 pixel19.addEventListener('click' , paintPixel);
 pixel20.addEventListener('click' , paintPixel);
+pixel21.addEventListener('click' , paintPixel);
 pixel22.addEventListener('click' , paintPixel);
 pixel23.addEventListener('click' , paintPixel);
 pixel24.addEventListener('click' , paintPixel);
 pixel25.addEventListener('click' , paintPixel);
 
 function clearPixels() {
-  //for (index in pixels){
-  //pixels[index].style.backgroundColor = "white"
-  //} Obs =  esse funcionou mas dava erro no cypress
-  pixel1.style.backgroundColor = "white";
-  pixel2.style.backgroundColor = "white";
-  pixel3.style.backgroundColor = "white";
-  pixel3.style.backgroundColor = "white";
-  pixel4.style.backgroundColor = "white";
-  pixel5.style.backgroundColor = "white";
-  pixel6.style.backgroundColor = "white";
-  pixel7.style.backgroundColor = "white";
-  pixel8.style.backgroundColor = "white";
-  pixel9.style.backgroundColor = "white";
-  pixel10.style.backgroundColor = "white";
-  pixel11.style.backgroundColor = "white";
-  pixel12.style.backgroundColor = "white";
-  pixel13.style.backgroundColor = "white";
-  pixel14.style.backgroundColor = "white";
-  pixel15.style.backgroundColor = "white";
-  pixel16.style.backgroundColor = "white";
-  pixel17.style.backgroundColor = "white";
-  pixel18.style.backgroundColor = "white";
-  pixel19.style.backgroundColor = "white";
-  pixel20.style.backgroundColor = "white";
-  pixel21.style.backgroundColor = "white";
-  pixel22.style.backgroundColor = "white";
-  pixel23.style.backgroundColor = "white";
-  pixel24.style.backgroundColor = "white";
-  pixel25.style.backgroundColor = "white";
+   /* for (index in pixels){
+   pixels[index].style.backgroundColor = 'white'
+   } */ // Obs =  esse funcionou mas dava erro no cypress
+  pixel1.style.backgroundColor = 'white';
+  pixel2.style.backgroundColor = 'white';
+  pixel3.style.backgroundColor = 'white';
+  pixel3.style.backgroundColor = 'white';
+  pixel4.style.backgroundColor = 'white';
+  pixel5.style.backgroundColor = 'white';
+  pixel6.style.backgroundColor = 'white';
+  pixel7.style.backgroundColor = 'white';
+  pixel8.style.backgroundColor = 'white';
+  pixel9.style.backgroundColor = 'white';
+  pixel10.style.backgroundColor = 'white';
+  pixel11.style.backgroundColor = 'white';
+  pixel12.style.backgroundColor = 'white';
+  pixel13.style.backgroundColor = 'white';
+  pixel14.style.backgroundColor = 'white';
+  pixel15.style.backgroundColor = 'white';
+  pixel16.style.backgroundColor = 'white';
+  pixel17.style.backgroundColor = 'white';
+  pixel18.style.backgroundColor = 'white';
+  pixel19.style.backgroundColor = 'white';
+  pixel20.style.backgroundColor = 'white';
+  pixel21.style.backgroundColor = 'white';
+  pixel22.style.backgroundColor = 'white';
+  pixel23.style.backgroundColor = 'white';
+  pixel24.style.backgroundColor = 'white';
+  pixel25.style.backgroundColor = 'white';
 }
